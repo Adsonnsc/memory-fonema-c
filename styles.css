@@ -39,7 +39,7 @@ body {
 }
 
 .card {
-  width: calc(20% - 5px);
+  width: calc(25% - 5px);
   aspect-ratio: 1;
   background-color: #008000;
   border: 2px solid #ffffff;
