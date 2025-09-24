@@ -27,14 +27,21 @@ body {
 
 .game-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 15px;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 .game-container {
   min-width: 544px;
   max-width: 544px;
+}
+
+.game-container *{
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
