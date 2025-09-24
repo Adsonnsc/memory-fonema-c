@@ -18,7 +18,8 @@ body {
   max-width: 100%;
 }
 
-img, video {
+.game-container img,
+.game-container video {
   max-width: 100%;
   height: auto;
   display: block;
