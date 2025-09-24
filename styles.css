@@ -50,8 +50,6 @@ body {
 
 @media (max-width: 480px) {
   body {
-    max-width: 95%;
-    padding: 0 5px;
     font-size: 14px;
   }
 }
