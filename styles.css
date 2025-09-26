@@ -12,10 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  max-width: 100%;
   overflow-x: hidden;
 }
 
@@ -28,9 +25,9 @@ body {
 
 .game-container {
   width: 100%;
-  max-width: 100%;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 20px;
   box-sizing: border-box;
   overflow-x: hidden;
 }
@@ -47,18 +44,14 @@ body {
 
 @media (max-width: 768px) {
   .game-container {
-    max-width: 90%;
-    padding: 0 10px;
-  }
-
-  .game-container {
+    padding: 15px;
     font-size: 16px;
   }
 }
 
 @media (max-width: 480px) {
   .game-container {
-    padding: 0 5px;
+    padding: 10px;
     font-size: 14px;
   }
 }
