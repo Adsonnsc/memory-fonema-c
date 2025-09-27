@@ -6,13 +6,9 @@
 
 body {
   background-color: #000000;
-  min-height: 100vh;
+  height: 100%;
   width: 100%;
-  display: flex; 
-  justify-content: center;
-  align-items: center;
   font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
   overflow-x: hidden;
 }
 
@@ -28,19 +24,11 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  box-sizing: border-box;
+  min-width: 544px;
+  max-width: 544px;
   overflow-x: hidden;
 }
 
-.game-container {
-  min-width: 544px;
-  max-width: 544px;
-}
-
-.game-container *{
-  max-width: 100%;
-  box-sizing: border-box;
-}
 
 @media (max-width: 768px) {
   .game-container {
@@ -61,6 +49,8 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 32px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 .stats {
@@ -73,6 +63,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
+  margin: 0 auto;
+  padding: 20px;
+  overflow-x: hidden;
 }
 
 .card {
@@ -116,6 +109,7 @@ body {
   font-family: "Roboto", sans-serif;
   transition: background-color 0.3s;
   margin-top: 32px;
+  overflow-x: hidden;
 }
 
 .button:hover {
