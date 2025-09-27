@@ -22,7 +22,6 @@ body {
   margin: 0 auto;
   padding: 20px;
   max-width: 544px;
-  overflow-x: hidden;
 }
 
 
@@ -54,12 +53,12 @@ body {
 }
 
 .cards-grid {
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
   margin: 0 auto;
   padding: 10px;
-  overflow-x: hidden;
 }
 
 .card {
@@ -105,7 +104,6 @@ body {
   transition: background-color 0.3s;
   margin: 32px auto 0;
   display: block;
-  overflow-x: hidden;
 }
 
 .button:hover {
