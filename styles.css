@@ -27,14 +27,16 @@ body {
 
 
 @media (max-width: 768px) {
-  .cards-grid .card {
-    flex: 1 1 calc(33.33% - 5px); /* 3 colunas */
+  .game-container {
+    padding: 15px;
+    font-size: 16px;
   }
 }
 
 @media (max-width: 480px) {
-  .cards-grid .card {
-    flex: 1 1 calc(50% - 5px); /* 2 colunas */
+  .game-container {
+    padding: 10px;
+    font-size: 14px;
   }
 }
 
@@ -61,7 +63,7 @@ body {
 }
 
 .card {
-  flex: 1 1 calc(25% - 5px);
+  width: calc(25% - 5px);
   aspect-ratio: 1;
   background-color: #008000;
   border: 2px solid #ffffff;
