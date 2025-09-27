@@ -6,8 +6,6 @@
 
 body {
   background-color: #000000;
-  height: 100%;
-  width: 100%;
   font-family: "Roboto", sans-serif;
   overflow-x: hidden;
 }
@@ -21,26 +19,22 @@ body {
 
 .game-container {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  min-width: 544px;
   max-width: 544px;
   overflow-x: hidden;
 }
 
 
 @media (max-width: 768px) {
-  .game-container {
-    padding: 15px;
-    font-size: 16px;
+  .cards-grid .card {
+    flex: 1 1 calc(33.33% - 5px); /* 3 colunas */
   }
 }
 
 @media (max-width: 480px) {
-  .game-container {
-    padding: 10px;
-    font-size: 14px;
+  .cards-grid .card {
+    flex: 1 1 calc(50% - 5px); /* 2 colunas */
   }
 }
 
@@ -49,8 +43,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 32px;
-  margin: 0 auto;
-  padding: 20px;
+  padding: 0 10px;
 }
 
 .stats {
@@ -59,17 +52,16 @@ body {
 }
 
 .cards-grid {
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
   overflow-x: hidden;
 }
 
 .card {
-  width: calc(25% - 5px);
+  flex: 1 1 calc(25% - 5px);
   aspect-ratio: 1;
   background-color: #008000;
   border: 2px solid #ffffff;
@@ -98,6 +90,7 @@ body {
 
 .button {
   width: 100%;
+  max-width: 100%;
   height: 52px;
   background-color: #006400;
   color: #ffffff;
@@ -108,7 +101,8 @@ body {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   transition: background-color 0.3s;
-  margin-top: 32px;
+  margin: 32px auto 0;
+  display: block;
   overflow-x: hidden;
 }
 
