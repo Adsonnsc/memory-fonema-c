@@ -25,11 +25,67 @@ body {
   min-width: 544px;
 }
 
-
 @media (max-width: 768px) {
   .game-container {
     padding: 15px;
     font-size: 16px;
+  }
+
+  .game-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+   padding: 0 10px;
+  }
+
+  .card {
+   width: calc(25% - 5px);
+   aspect-ratio: 1;
+   background-color: #008000;
+   border: 2px solid #ffffff;
+   border-radius: 12px;
+   background-image: url(./assets/lines.svg);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+  }
+
+  .revealed {
+   background-color: #ffffff;
+   border-color: #dadada;
+   cursor: not-allowed;
+  }
+
+  .card-emoji {
+   font-size: 36px;
+   display: none;
+  }
+
+  .revealed .card-emoji {
+   display: block;
+  }
+
+  .button {
+   width: 100%;
+   max-width: 92%;
+   height: 32px;
+   background-color: #006400;
+   color: #ffffff;
+   font-weight: 500;
+   font-size: 16px;
+   border-radius: 7px;
+   border: 2px solid #dadada;
+   cursor: pointer;
+   font-family: "Roboto", sans-serif;
+   transition: background-color 0.3s;
+   margin: 32px auto 0;
+   display: block;
+  }
+
+  .button:hover {
+   background-color: #1dae2c;
   }
 }
 
@@ -37,7 +93,14 @@ body {
   .game-container {
     padding: 10px;
     font-size: 14px;
-    margin-top: 20px;
+  }
+
+  .game-header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+   padding: 0 10px;
   }
 
   .card {
