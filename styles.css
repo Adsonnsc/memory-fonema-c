@@ -21,8 +21,8 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
-  max-width: 300px;
-  min-width: 300px;
+  max-width: 544px;
+  min-width: 544px;
 }
 
 
@@ -37,6 +37,7 @@ body {
   .game-container {
     padding: 10px;
     font-size: 14px;
+    margin-top: 20px;
   }
 
   .card {
@@ -93,7 +94,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 32px;
+  margin-bottom: 20px;
   padding: 0 10px;
 }
 
@@ -131,7 +132,7 @@ body {
 }
 
 .card-emoji {
-  font-size: 36px;
+  font-size: 50px;
   display: none;
 }
 
@@ -141,8 +142,8 @@ body {
 
 .button {
   width: 100%;
-  max-width: 92%;
-  height: 32px;
+  max-width: 96%;
+  height: 50px;
   background-color: #006400;
   color: #ffffff;
   font-weight: 500;
@@ -152,7 +153,7 @@ body {
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   transition: background-color 0.3s;
-  margin: 32px auto 0;
+  margin: 20px auto 0;
   display: block;
 }
 
