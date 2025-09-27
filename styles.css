@@ -21,8 +21,8 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 20px;
-  max-width: 544px;
-  min-width: 544px;
+  max-width: 300px;
+  min-width: 300px;
 }
 
 
@@ -82,7 +82,7 @@ body {
 }
 
 .card-emoji {
-  font-size: 50px;
+  font-size: 36px;
   display: none;
 }
 
@@ -93,7 +93,7 @@ body {
 .button {
   width: 100%;
   max-width: 100%;
-  height: 52px;
+  height: 32px;
   background-color: #006400;
   color: #ffffff;
   font-weight: 500;
